@@ -19,7 +19,7 @@ def getlocation(location):
 # Date expected in YYYY-DD-MM format
 @api.route('/api/date/<date>/loc/<location>', methods=['GET'])
 def getdate(_date, location):
-  return "yourCodeHere"
+  return "your Excellent Code Here"
 
 # Expected format for dates are YYYY-DD-MM
 @api.route('/api/date/<_dateFrom>/<_dateTo>/loc/<location>', methods=['GET'])
